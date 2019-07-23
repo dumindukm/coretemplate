@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.8.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MySampleDataInterfaces\MySampleDataInterfaces.csproj" />
+    <ProjectReference Include="..\MySample_CoreInterfaces\MySample_CoreInterfaces.csproj" />
+    <ProjectReference Include="..\MySample_CoreServices\MySample_CoreServices.csproj" />
+    <ProjectReference Include="..\MySample_DataService\MySample_DataService.csproj" />
+    <ProjectReference Include="..\MySample_Utility\MySample_Utility.csproj" />
+  </ItemGroup>
+
+</Project>
